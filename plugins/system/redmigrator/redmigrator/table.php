@@ -79,7 +79,7 @@ class redMigratorTable extends JTable
 	 * @access	public
 	 * @return	int	The total of rows
 	 */
-	public function load( $oid = null )
+	public function load( $oid = null, $reset = true  )
 	{
 		$key = $this->getKeyName();
 		$table = $this->getTableName();
